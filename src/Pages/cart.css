@@ -1,0 +1,43 @@
+.cart-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.cart-item-details p {
+    margin: 0;
+    color: #888;
+}
+
+.cart-total {
+    margin-top: 20px;
+}
+
+.cart-total h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* Add additional styles as needed */

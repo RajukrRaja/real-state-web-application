@@ -1,0 +1,114 @@
+/* Choose.css */
+
+.choose-container {
+    padding: 50px;
+    text-align: center;
+    margin-top: 5cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    color: white;
+}
+
+.choose-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 1cm;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.benefit-item {
+    width: calc(100% / 3);
+    padding: 20px;
+    text-align: left;
+}
+
+.benefit-item h3 {
+    font-size: 24px;
+    color: #e7fc02;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.5;
+}
+
+.benefit-icon {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.benefit-item {
+    width: calc(100% / 3);
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add border shadow */
+}
+
+@media screen and (max-width: 767px) {
+    .benefit-item {
+        width: 100%;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Add border shadow for smaller screens */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .benefit-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 768px) {
+        .benefit-item {
+            width: 100%;
+            /* Adjust width for small screens */
+        }
+        .choose-heading {
+            font-size: 1.5rem;
+            /* Adjust font size for smaller screens */
+            margin-bottom: 15px;
+            white-space: nowrap;
+            margin-bottom: 0.5cm;
+            color: gold;
+            /* Adjust margin for smaller screens */
+        }
+        .benefit-icon {
+            font-size: 1.5rem;
+            /* Adjust icon size for smaller screens */
+            margin-right: 8px;
+            /* Adjust margin for smaller screens */
+        }
+        .benefit-item h3 {
+            font-size: 1.2rem;
+            /* Adjust heading size for smaller screens */
+        }
+        .benefit-item p {
+            font-size: 1rem;
+            /* Adjust paragraph size for smaller screens */
+        }
+        .choose-container {
+            padding: 15px;
+            /* Adjust padding for smaller screens */
+            margin-top: 3rem;
+            /* Adjust margin for smaller screens */
+        }
+        .benefits-list {
+            justify-content: center;
+            /* Center align benefit items on smaller screens */
+        }
+        .benefit-item {
+            flex-direction: column;
+            /* Stack items vertically on smaller screens */
+        }
+    }
+}
