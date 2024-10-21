@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/real-state-web-application/static/css/main.62563ee5.css",
+    "main.js": "/real-state-web-application/static/js/main.76edf2e8.js",
+    "static/js/453.c9b2d136.chunk.js": "/real-state-web-application/static/js/453.c9b2d136.chunk.js",
+    "static/media/gate photo.jpg": "/real-state-web-application/static/media/gate photo.a27b7e5ad74fb5501ad4.jpg",
+    "index.html": "/real-state-web-application/index.html",
+    "main.62563ee5.css.map": "/real-state-web-application/static/css/main.62563ee5.css.map",
+    "main.76edf2e8.js.map": "/real-state-web-application/static/js/main.76edf2e8.js.map",
+    "453.c9b2d136.chunk.js.map": "/real-state-web-application/static/js/453.c9b2d136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62563ee5.css",
+    "static/js/main.76edf2e8.js"
+  ]
+}
