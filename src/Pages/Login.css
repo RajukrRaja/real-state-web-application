@@ -1,0 +1,18 @@
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    width: 100vw; /* Make sure body takes full viewport width */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+   
+  }
+  
+  .container {
+    margin: 0; /* Remove margin from container */
+    padding: 0; /* Optionally, set padding to zero */
+    width: 100%; /* Ensure it takes full width */
+    max-width: 1200px; /* Optional: set a max width */
+    margin: auto; /* Center container */
+  }
+  
+  /* Additional styles can be added here */
+  

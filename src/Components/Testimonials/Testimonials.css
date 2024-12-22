@@ -1,0 +1,139 @@
+/* Testimonials.css */
+
+
+/* Base styles */
+
+.testimonials-container {
+    text-align: center;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    /* Set left and right margins to auto to center horizontally */
+    margin-top: 4cm;
+}
+
+.testimonials-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 2cm;
+}
+
+.testimonials-subheading {
+    font-size: 25px;
+    color: #a5da09;
+    justify-content: center;
+    font-weight: bolder;
+    margin-bottom: 1cm;
+}
+
+.testimonial {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.testimonial-info img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.testimonial-role {
+    font-size: 14px;
+    color: #888;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.view-all-testimonials {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .testimonials-heading {
+        font-size: 1.5rem;
+    }
+    .testimonials-subheading {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .testimonials-container {
+        padding: 15px;
+        margin-top: 3rem;
+    }
+    .testimonial {
+        margin-bottom: 2rem;
+    }
+    .testimonial-details {
+        text-align: center;
+    }
+    .testimonial-name {
+        font-size: 1.2rem;
+    }
+    .testimonial-role {
+        font-size: 0.9rem;
+    }
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+    .testimonial img {
+        width: 100px;
+        height: 100px;
+        border-radius: 60%;
+        margin-bottom: 10px;
+    }
+    .testimonial {
+        width: 100%;
+        /* Set width to 100% to center the testimonial in smaller screens */
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+    .view-all-testimonials {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    /* Additional Adjustments */
+    .testimonial-info {
+        display: flex;
+        justify-content: center;
+    }
+    .testimonial-details {
+        padding: 0 10px;
+    }
+    .testimonial-text {
+        padding: 0 10px;
+        justify-content: center;
+    }
+    .testimonial img {
+        margin-right: 10px;
+    }
+    .testimonial-role {
+        margin-top: 5px;
+    }
+    .view-all-testimonials {
+        margin-top: 2rem;
+    }
+}

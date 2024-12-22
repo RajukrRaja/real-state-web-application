@@ -1,0 +1,143 @@
+/* Reset default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Apply white text color to all elements */
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div,
+a,
+li,
+ul,
+ol,
+input,
+textarea,
+button,
+select {
+    color: #ffffff;
+    /* White text color */
+}
+
+
+/* Set black background color for the body */
+
+body {
+    background-color: #000000;
+    /* Black background color */
+    font-family: Arial, sans-serif;
+    /* Specify a fallback font */
+}
+
+
+/* Horizontal arrangement */
+
+.container {
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Distribute items evenly along the main axis */
+    align-items: center;
+    /* Center items along the cross axis */
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    /* Center horizontally */
+    padding: 0 20px;
+    /* Add padding to the sides */
+}
+
+
+/* Heading styles */
+
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+/* Paragraph styles */
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+/* Link styles */
+
+a {
+    color: #ffffff;
+    /* White text color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Button styles */
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Blue button color */
+    color: #ffffff;
+    /* White text color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+
+/* Form input styles */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    /* White input background color */
+    color: #000000;
+    /* Black text color */
+}
+
+
+/* Add more specific CSS rules for other elements as needed */
